@@ -1,5 +1,105 @@
 [
   {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogDapperController",
+    "Method": "GetBlogs",
+    "RelativePath": "api/BlogDapper",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogDapperController",
+    "Method": "CreateBlog",
+    "RelativePath": "api/BlogDapper",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blog",
+        "Type": "DotNetCoreWebAPIPractice.Models.BlogModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogDapperController",
+    "Method": "GetABlog",
+    "RelativePath": "api/BlogDapper/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogDapperController",
+    "Method": "UpdateBlog",
+    "RelativePath": "api/BlogDapper/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "blog",
+        "Type": "DotNetCoreWebAPIPractice.Models.BlogModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogDapperController",
+    "Method": "PatchBlog",
+    "RelativePath": "api/BlogDapper/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "blog",
+        "Type": "DotNetCoreWebAPIPractice.Models.BlogModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogDapperController",
+    "Method": "DeleteBlog",
+    "RelativePath": "api/BlogDapper/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogsController",
     "Method": "ReadBlog",
     "RelativePath": "api/Blogs",

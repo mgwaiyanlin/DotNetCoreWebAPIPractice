@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DotNetCoreWebAPIPractice.Controllers
 {
+    // This is a controller based on EF Core method.
     [Route("api/[controller]")]
     [ApiController]
     public class BlogsController : ControllerBase
