@@ -1,5 +1,105 @@
 [
   {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogAdoController",
+    "Method": "GetBlogs",
+    "RelativePath": "api/BlogAdo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogAdoController",
+    "Method": "CreateBlog",
+    "RelativePath": "api/BlogAdo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blogModel",
+        "Type": "DotNetCoreWebAPIPractice.Models.BlogModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogAdoController",
+    "Method": "UpdateBlog",
+    "RelativePath": "api/BlogAdo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "blogModel",
+        "Type": "DotNetCoreWebAPIPractice.Models.BlogModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogAdoController",
+    "Method": "DeleteBlog",
+    "RelativePath": "api/BlogAdo",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogAdoController",
+    "Method": "GetABlog",
+    "RelativePath": "api/BlogAdo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogAdoController",
+    "Method": "PatchBlog",
+    "RelativePath": "api/BlogAdo/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "blogModel",
+        "Type": "DotNetCoreWebAPIPractice.Models.BlogModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DotNetCoreWebAPIPractice.Controllers.BlogDapperController",
     "Method": "GetBlogs",
     "RelativePath": "api/BlogDapper",
