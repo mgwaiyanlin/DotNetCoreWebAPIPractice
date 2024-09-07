@@ -76,3 +76,4 @@ C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractic
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice\obj\Debug\net8.0\DotNetCoreWebAPIPractice.sourcelink.json
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice\bin\Debug\net8.0\Dapper.dll
+C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice\bin\Debug\net8.0\Newtonsoft.Json.dll
