@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreWebAPIPractice", "DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.csproj", "{64DE3859-863D-4DD0-B7E0-383336DCCDF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreWebAPIPractice.RestAPI", "DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPI.csproj", "{64DE3859-863D-4DD0-B7E0-383336DCCDF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreWebAPIPractice.RestAPIWithNLayer", "DotNetCoreWebAPIPractice.RestAPIWithNLayer\DotNetCoreWebAPIPractice.RestAPIWithNLayer.csproj", "{782CBEA4-E06D-4C25-B9BB-B4859F1E1C6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{64DE3859-863D-4DD0-B7E0-383336DCCDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64DE3859-863D-4DD0-B7E0-383336DCCDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64DE3859-863D-4DD0-B7E0-383336DCCDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{782CBEA4-E06D-4C25-B9BB-B4859F1E1C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{782CBEA4-E06D-4C25-B9BB-B4859F1E1C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{782CBEA4-E06D-4C25-B9BB-B4859F1E1C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{782CBEA4-E06D-4C25-B9BB-B4859F1E1C6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,6 @@
+@DotNetCoreWebAPIPractice.RestAPIWithNLayer_HostAddress = http://localhost:5261
+
+GET {{DotNetCoreWebAPIPractice.RestAPIWithNLayer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

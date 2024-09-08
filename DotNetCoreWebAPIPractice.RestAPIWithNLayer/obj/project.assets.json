@@ -46,19 +46,6 @@
           }
         }
       },
-      "Dapper/2.1.35": {
-        "type": "package",
-        "compile": {
-          "lib/net7.0/Dapper.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net7.0/Dapper.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -623,19 +610,6 @@
           "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
             "assetType": "runtime",
             "rid": "win"
-          }
-        }
-      },
-      "Newtonsoft.Json/13.0.3": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Newtonsoft.Json.dll": {
-            "related": ".xml"
           }
         }
       },
@@ -1233,27 +1207,6 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
-      ]
-    },
-    "Dapper/2.1.35": {
-      "sha512": "YKRwjVfrG7GYOovlGyQoMvr1/IJdn+7QzNXJxyMh0YfFF5yvDmTYaJOVYWsckreNjGsGSEtrMTpnzxTUq/tZQw==",
-      "type": "package",
-      "path": "dapper/2.1.35",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Dapper.png",
-        "dapper.2.1.35.nupkg.sha512",
-        "dapper.nuspec",
-        "lib/net461/Dapper.dll",
-        "lib/net461/Dapper.xml",
-        "lib/net5.0/Dapper.dll",
-        "lib/net5.0/Dapper.xml",
-        "lib/net7.0/Dapper.dll",
-        "lib/net7.0/Dapper.xml",
-        "lib/netstandard2.0/Dapper.dll",
-        "lib/netstandard2.0/Dapper.xml",
-        "readme.md"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -2397,36 +2350,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Newtonsoft.Json/13.0.3": {
-      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
-      "type": "package",
-      "path": "newtonsoft.json/13.0.3",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.md",
-        "README.md",
-        "lib/net20/Newtonsoft.Json.dll",
-        "lib/net20/Newtonsoft.Json.xml",
-        "lib/net35/Newtonsoft.Json.dll",
-        "lib/net35/Newtonsoft.Json.xml",
-        "lib/net40/Newtonsoft.Json.dll",
-        "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/net6.0/Newtonsoft.Json.dll",
-        "lib/net6.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.0/Newtonsoft.Json.dll",
-        "lib/netstandard1.0/Newtonsoft.Json.xml",
-        "lib/netstandard1.3/Newtonsoft.Json.dll",
-        "lib/netstandard1.3/Newtonsoft.Json.xml",
-        "lib/netstandard2.0/Newtonsoft.Json.dll",
-        "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "newtonsoft.json.13.0.3.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "packageIcon.png"
-      ]
-    },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
       "sha512": "9kyFSIdN3T0qjDQ2R0HRXYIhS3l5psBzQi6qqhdLz+SzFyEy4sVxNOke+yyYv8Cu8rPER12c3RDjLT8wF3WBYQ==",
       "type": "package",
@@ -3523,10 +3446,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Dapper >= 2.1.35",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
-      "Newtonsoft.Json >= 13.0.3",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "System.Data.SqlClient >= 4.8.6"
     ]
@@ -3538,11 +3459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MgMinnGee\\source\\repos\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice.RestAPI.csproj",
-      "projectName": "DotNetCoreWebAPIPractice.RestAPI",
-      "projectPath": "C:\\Users\\MgMinnGee\\source\\repos\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice.RestAPI.csproj",
+      "projectUniqueName": "C:\\Users\\MgMinnGee\\source\\repos\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice.RestAPIWithNLayer\\DotNetCoreWebAPIPractice.RestAPIWithNLayer.csproj",
+      "projectName": "DotNetCoreWebAPIPractice.RestAPIWithNLayer",
+      "projectPath": "C:\\Users\\MgMinnGee\\source\\repos\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice.RestAPIWithNLayer\\DotNetCoreWebAPIPractice.RestAPIWithNLayer.csproj",
       "packagesPath": "C:\\Users\\MgMinnGee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MgMinnGee\\source\\repos\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice\\obj\\",
+      "outputPath": "C:\\Users\\MgMinnGee\\source\\repos\\DotNetCoreWebAPIPractice\\DotNetCoreWebAPIPractice.RestAPIWithNLayer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -3581,10 +3502,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Dapper": {
-            "target": "Package",
-            "version": "[2.1.35, )"
-          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.8, )"
@@ -3592,10 +3509,6 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[8.0.8, )"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.3, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

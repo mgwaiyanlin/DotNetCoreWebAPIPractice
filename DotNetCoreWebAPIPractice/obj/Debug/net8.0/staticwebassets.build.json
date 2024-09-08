@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "wGz1Kdu1u3u054EZ+klNqNf4gOza8aWlKnwDvg1ZcYc=",
-  "Source": "DotNetCoreWebAPIPractice",
-  "BasePath": "_content/DotNetCoreWebAPIPractice",
+  "Hash": "H7LOcKma0zuKFhKyQGdpHjof8m/9W1R/Azb3L4FnAjg=",
+  "Source": "DotNetCoreWebAPIPractice.RestAPI",
+  "BasePath": "_content/DotNetCoreWebAPIPractice.RestAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
