@@ -1,0 +1,122 @@
+[
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.Blog.BlogController",
+    "Method": "ReadBlog",
+    "RelativePath": "api/Blog",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.Blog.BlogController",
+    "Method": "CreateBlog",
+    "RelativePath": "api/Blog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "blog",
+        "Type": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Models.BlogModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.Blog.BlogController",
+    "Method": "Edit",
+    "RelativePath": "api/Blog/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.Blog.BlogController",
+    "Method": "UpdateBlog",
+    "RelativePath": "api/Blog/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "blog",
+        "Type": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Models.BlogModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.Blog.BlogController",
+    "Method": "DeleteBlog",
+    "RelativePath": "api/Blog/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.LatHtaukBayDin.LatHtaukBayDinController",
+    "Method": "GetQuestionAndAnswer",
+    "RelativePath": "api/LatHtaukBayDin/{questionId}/{answerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "answerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.LatHtaukBayDin.LatHtaukBayDinController",
+    "Method": "GetNumberList",
+    "RelativePath": "api/LatHtaukBayDin/number_list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.LatHtaukBayDin.LatHtaukBayDinController",
+    "Method": "GetQuestions",
+    "RelativePath": "api/LatHtaukBayDin/questions",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

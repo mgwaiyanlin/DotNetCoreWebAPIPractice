@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DotNetCoreWebAPIPractice.RestAPIWithNLayer.props" />
+</Project>
