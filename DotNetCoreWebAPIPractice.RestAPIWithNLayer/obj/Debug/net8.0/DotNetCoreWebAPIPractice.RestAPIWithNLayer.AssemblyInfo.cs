@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotNetCoreWebAPIPractice.RestAPIWithNLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01a59a292d5589c0e015489903aa1f2cfcbc52ee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9120a0560f2ad5e21825afe0eaad1a62e55c3333")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotNetCoreWebAPIPractice.RestAPIWithNLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotNetCoreWebAPIPractice.RestAPIWithNLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

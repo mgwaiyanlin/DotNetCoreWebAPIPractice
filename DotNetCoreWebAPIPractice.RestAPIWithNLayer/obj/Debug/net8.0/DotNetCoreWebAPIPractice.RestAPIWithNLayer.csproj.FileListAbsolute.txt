@@ -9,7 +9,6 @@ C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractic
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\bin\Debug\net8.0\appsettings.json
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\bin\Debug\net8.0\DotNetCoreWebAPIPractice.RestAPIWithNLayer.exe
-C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\bin\Debug\net8.0\data.json
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\bin\Debug\net8.0\DotNetCoreWebAPIPractice.RestAPIWithNLayer.deps.json
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\bin\Debug\net8.0\DotNetCoreWebAPIPractice.RestAPIWithNLayer.runtimeconfig.json
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\bin\Debug\net8.0\DotNetCoreWebAPIPractice.RestAPIWithNLayer.dll
@@ -77,3 +76,5 @@ C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractic
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\obj\Debug\net8.0\DotNetCoreWebAPIPractice.RestAPIWithNLayer.pdb
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\obj\Debug\net8.0\DotNetCoreWebAPIPractice.RestAPIWithNLayer.genruntimeconfig.cache
 C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\obj\Debug\net8.0\ref\DotNetCoreWebAPIPractice.RestAPIWithNLayer.dll
+C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\bin\Debug\net8.0\DhamaData.json
+C:\Users\MgMinnGee\source\repos\DotNetCoreWebAPIPractice\DotNetCoreWebAPIPractice.RestAPIWithNLayer\bin\Debug\net8.0\LatHtaukBayDinData.json

@@ -79,6 +79,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.Dhama.DhamaController",
+    "Method": "GetDhamaTitles",
+    "RelativePath": "api/Dhama/dhama_titles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.LatHtaukBayDin.LatHtaukBayDinController",
     "Method": "GetQuestionAndAnswer",
     "RelativePath": "api/LatHtaukBayDin/{questionId}/{answerId}",

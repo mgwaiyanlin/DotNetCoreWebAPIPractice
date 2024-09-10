@@ -11,7 +11,7 @@ namespace DotNetCoreWebAPIPractice.RestAPIWithNLayer.Features.LatHtaukBayDin
 
         private async Task<LatHtaukBayDin> GetDataAsync()
         {
-            string jsonStr = await System.IO.File.ReadAllTextAsync("data.json");
+            string jsonStr = await System.IO.File.ReadAllTextAsync("LatHtaukBayDinData.json");
             var model = JsonConvert.DeserializeObject<LatHtaukBayDin>(jsonStr);
 
             return model!;
